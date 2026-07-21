@@ -17,6 +17,14 @@ API REST para gerenciamento de tarefas desenvolvida com FastAPI, SQLAlchemy e SQ
 * Banco SQLite
 * Modelo de tarefas
 * Criação automática de tabelas
+* Criar tarefa
+* Listar tarefas
+* Atualizar tarefa
+* Deletar tarefa
+* Filtros por prioridade e statu
+
+
+![fastapi_swaggerui](image.png)
 
 ## Como executar
 
@@ -32,8 +40,4 @@ uvicorn app.main:app --reload
 
 ## Próximos passos
 
-* Criar tarefa
-* Listar tarefas
-* Atualizar tarefa
-* Deletar tarefa
-* Filtros por prioridade e status
+
