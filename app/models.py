@@ -11,3 +11,7 @@ class Task(Base):
     priority = Column(String, default="media")
     completed = Column(Boolean, default=False)
     created_at = Column(DateTime, default=datetime.utcnow)
+
+   
+
+   
